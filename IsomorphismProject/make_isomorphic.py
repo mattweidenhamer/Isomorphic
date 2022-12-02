@@ -91,6 +91,8 @@ class AdjConstructor:
 
         print("Building the second matrix.")
         self.matrix2 = Matrix(self.matrix1.size, relations_but_evil)
+        print("Matrix key:")
+        print(lexicon)
 
     def build(self):
         name = input("What would you like to name this matrix? ")
